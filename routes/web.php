@@ -18,4 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/profile/{nama}/{npm}/{kelas}',[ProfileController::class, 'index'] );
+Route::get('/profile/hasil',[ProfileController::class, 'index'] );
+Route::get('/profile/create',[ProfileController::class, 'store'] );
+Route::post('/profile/create',[ProfileController::class, 'store_request'] );
+

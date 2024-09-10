@@ -10,15 +10,15 @@
     @vite('resources/css/app.css')
 </head>
 <body class="bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500">
-    <div class="flex items-center justify-center h-screen ">
-        <div class="bg-white p-8 rounded-lg shadow-lg text-black text-lg">
+    <div class="flex items-center justify-center h-screen container mx-auto">
+        <div class="bg-white p-8 rounded-lg shadow-lg text-black text-lg w-full">
             <div class="avatar">
                 <div class="w-24 rounded-full flex items-center">
                   <img src="/img/image.png" />
                 </div>
             </div>
             <div class="mt-5">
-                Nama : {{ $nama }}
+                Nama : {{ $name }}
             </div>
             <div class="mt-5">
                 Kelas : {{ $kelas }}
