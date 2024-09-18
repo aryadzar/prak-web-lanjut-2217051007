@@ -21,4 +21,6 @@ Route::get('/', function () {
 Route::get('/profile/hasil',[ProfileController::class, 'index'] );
 Route::get('/profile/create',[ProfileController::class, 'store'] );
 Route::post('/profile/create',[ProfileController::class, 'store_request'] );
+Route::get('/profile/{name}/{npm}/{kelas}/', [ProfileController::class, 'profile']);
 
+Route::resource('profile', ProfileController::class);
