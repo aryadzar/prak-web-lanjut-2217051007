@@ -19,15 +19,15 @@
                 @csrf
                 <div class=" mt-5 form-control">
                     <label for="name" class="mb-3">Nama Anda</label>
-                    <input type="text" name="name" id="name" class=" bg-white border border-indigo-200 h-10 rounded-lg" required>
+                    <input type="text" name="name" id="name" class=" bg-white border border-indigo-200 h-10 rounded-lg py-1 px-2" required>
                 </div>
                 <div class=" mt-5 form-control">
                     <label for="npm" class="mb-3">NPM</label>
-                    <input type="number" name="npm" id="npm" class=" bg-white border border-indigo-200 h-10 rounded-lg" required>
+                    <input type="number" name="npm" id="npm" class=" bg-white border border-indigo-200 h-10 rounded-lg py-1 px-2" required>
                 </div>
                 <div class=" mt-5 form-control">
                     <label for="kelas" class="mb-3">Kelas</label>
-                    <input type="text" name="kelas" id="kelas" class=" bg-white border border-indigo-200 h-10 rounded-lg" required>
+                    <input type="text" name="kelas" id="kelas" class=" bg-white border border-indigo-200 h-10 rounded-lg py-1 px-2" required>
                 </div>
                 <div class=" mt-5 flex justify-end">
                     <button type="submit" class=" btn btn-info bg-blue-700">Buat </button>
